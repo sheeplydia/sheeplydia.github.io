@@ -1,2 +1,5 @@
 ### personal website
-#### under maintenance
+
+#### issues:
+fix scalability
+fix space between music & about me
