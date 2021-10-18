@@ -7,3 +7,7 @@
 -  change font on title1
 -  remove dead code
 -  fix opacity scroll
+-  link correct social media/email links
+-  different color for title1 background
+-  wider text-spacing for contact info
+-  adjust sizing of playlist so no scroll
