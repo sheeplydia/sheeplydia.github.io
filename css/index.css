@@ -1,0 +1,413 @@
+body,html {
+  height: 100%;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+html {
+  overflow-y: scroll;
+  scrollbar-width: none;
+  /* scrollbar-color: #461780 #461780c2;
+  scrollbar-width: thin; */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+.parallax {
+  background-image: url('../img/mainPhoto.jpg');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-position: 50% 58.5%;
+}
+
+#heading {
+  margin-top: 34vh;
+  animation: fadein 4s;
+  -webkit-animation: fadein 4s;
+  -moz-animation: fadein 4s;
+  -ms-animation: fadein 4s;
+  -o-animation: fadein 4s;
+}
+
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-webkit-keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-moz-keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-ms-keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-o-keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+#bottomPart {
+  margin-top: -5vh;
+}
+
+h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h5 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  /* font-size: 24px; */
+  font-size: 150%;
+  color: white;
+  text-shadow: .03em .03em rgba(46,43,50,.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#firstHalf {
+  font-family: 'Montserrat', sans-serif;
+  /* font-size: 71px; */
+  font-size: 230%;
+  /* text-shadow: 2px 2px #2E2B32; */
+  text-shadow: .03em .03em rgba(46,43,50,.1);
+}
+
+#secondHalf {
+  font-family: 'Poppins', sans-serif;
+  /* font-size: 84px; */
+  font-size: 270%;
+  font-weight: bolder;
+  text-shadow: .03em .03em rgba(46,43,50,.1);
+}
+
+#downArrow {
+  padding-top: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fas {
+  color: white;
+  font-size: 3.5vh;
+  padding-bottom: 9vh;
+}
+
+#filler {
+  height: 6vh;
+}
+
+#musicSection {
+  height: 94vh;
+  background-color: rgba(255, 255, 255, 0.116);
+  display: grid;
+  /* margin-left: 5vw;
+  margin-right: 5vw; */
+}
+
+#musicHeading{
+  height: 10vh;
+}
+
+h2 {
+  font-family: 'Museo 700';
+  color: rgb(244, 244, 244);
+  text-shadow: .03em .03em rgba(46,43,50,.1);
+  font-size: 470%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  padding-top: 4.3vh;
+}
+
+/* #music {
+  height: 100vh;
+  padding-top: 12vh;
+  display: grid;
+  grid-template-columns: 8% auto auto 8%;
+  grid-template-rows: 49.75% 49.75%;
+  gap: 10% 7%;
+  text-align: center;
+} */
+
+#music {
+  height: 65vh;
+  padding-top: 12vh;
+  display: grid;
+  grid-template-columns: 18% auto 18%;
+  gap: 10% 7%;
+  text-align: center;
+}
+
+#genre1 {
+  /* grid-column:2; */
+  grid-column:2;
+  background-color: rgba(177,138,150, .9);
+}
+
+#title1 {
+  font-size: 100%;
+  color: rgba(244, 244, 244);
+}
+
+/* #genre2 {
+  grid-column:3;
+  grid-row: 1;
+  background-color: rgba(219, 112, 147, .5);
+}
+
+#title2 {
+  font-size: 100%;
+}
+
+#genre3 {
+  grid-column:2;
+  grid-row: 2;
+  background-color: rgba(237,184,201, .5);
+}
+
+#title3 {
+  font-size: 100%;
+}
+
+#genre4 {
+  grid-column:3;
+  grid-row: 2;
+  background-color: rgba(164,84,110, .5);
+}
+
+#title4 {
+  font-size: 100%;
+} */
+
+#musicSectionExtension {
+  height: 56vh;
+  background-color: rgba(255, 255, 255, 0.116);
+} 
+
+#musicSectionEnd {
+  height: 6vh;
+  background-color: rgba(255, 255, 255, 0.116);
+  opacity: 1;
+
+  /* height: 44vh;
+  background-color: rgba(255, 255, 255, 0.116); */
+}
+
+h4 {
+  font-family: 'Museo 700';
+  color: rgb(24, 24, 24);
+  font-size: 470%;
+  text-shadow: .03em .03em rgba(46,43,50,.1);
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+#aboutMeFiller {
+  height: 38vh;
+  background-color: rgba(255, 255, 255, 0.116);
+}
+
+#aboutMeSection {
+  height: 70vh;
+  display: grid;
+  grid-template-columns: 15% 25% 1% 45% 13%;
+  grid-template-rows: 75% 25%;
+  /* column-gap: 2%; */
+  background-color: rgba(255, 255, 255, 0.116);
+}
+
+#aboutPicture {
+  grid-column:2;
+  grid-row: 1;
+  /* background-color: red; */
+  display: grid;
+  padding-top: 2vh;
+  background-image: url('../img/yaya.jpg');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: auto 100%;
+  background-position: center;
+  margin-top: -20.3vh;
+}
+
+/* #proPic {
+  border-style: solid;
+  border-color: aquamarine;
+  object-fit: contain;
+} */
+
+#aboutDescription {
+  grid-column-start:4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  /* background-color: blue; */
+  display: grid;
+  font-family: 'Poppins', 'sans-serif';
+  font-size: 150.5%;
+  font-weight: bolder;
+  text-shadow: .03em .03em rgba(46,43,50,.1);
+  color: #c9a52e;
+  margin-top: -24vh;
+}
+
+/* #aboutMeEndFiller {
+  height: 10vh;
+  background-color: rgba(255, 255, 255, 0.116);
+} */
+
+#links {
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+    justify-content: center;
+    align-items: center;
+    height: 4vh;
+    margin-top: -18vh;
+}
+
+#links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#links li {
+  float: left; 
+}
+
+#links li a {
+  display: block;
+  padding: 10px;
+}
+
+#links .fab {
+  padding: 17.5px;
+  font-size: 3.5vh;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(24, 24, 24);
+  /* color: rgb(244, 244, 244); */
+}
+/* #links .fa-spotify {
+  color: #1DB954;
+}
+#links .fa-soundcloud {
+  color: #ff7700;
+}
+
+#links .fa-instagram-square {
+  color: #c13584;
+}
+
+#links .fa-at {
+  color: rgb(65, 65, 65);
+} */
+
+#links .fab:hover {
+  opacity: 0.5;
+}
+
+#links .fas {
+  padding: 17.5px;
+  font-size: 3.5vh;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(24, 24, 24);
+  /* color: rgb(244, 244, 244); */
+}
+
+#links .fas:hover {
+  opacity: 0.5;
+}
+
+#contact {
+  height: 30vh;
+}
+
+#contact h5 {
+  font-size: 300%;
+  font-family: 'Museo 700';
+}
+#contact p {
+  font-size: 200%;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 150%;
+  margin-top: -5vh;
+}
+
+mark {
+  background-color:white;
+  color:#c9a52e;
+}
+
+#parallax2 {
+  background-image: url('../img/mainPhoto.jpg');
+  height: 15.5%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-position: 50% 58.5%;
+}
+
+#backToTopBar {
+  height: 8%;
+  background-color: white;
+}
+
+#backToTopBar:hover {
+  background-color: rgba(255, 215, 188, 0.774);
+}
+
+
+@font-face {
+  font-family: 'Museo 700';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Museo 700'), url('../custom-fonts/Museo700-Regular.woff') format('woff');
+  }
+
+@font-face {
+  font-family: 'Avenir Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Avenir Light'), url('../custom-fonts/Avenir Light.ttf') format('ttf');
+  }
