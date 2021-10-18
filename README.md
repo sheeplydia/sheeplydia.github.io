@@ -12,3 +12,4 @@
 -  wider text-spacing for contact info
 -  adjust sizing of playlist so no scroll
 -  delete the buttom white part on the last page 
+-  can make the last page bigger
