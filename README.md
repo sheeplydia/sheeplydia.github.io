@@ -11,3 +11,4 @@
 -  different color for title1 background
 -  wider text-spacing for contact info
 -  adjust sizing of playlist so no scroll
+-  delete the buttom white part on the last page 
