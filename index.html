@@ -1,209 +1,117 @@
-<!-- William Dunn - 07/23/21 -->
+<!-- William Dunn - 11/08/21 -->
 
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-	<title>Lydia Li</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/everyPage.css">
-	<link rel="stylesheet" type="text/css" href="css/sideBar.css">
-	<link rel="stylesheet" type="text/css" href="css/index.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet"> 
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
-	<script src="https://kit.fontawesome.com/c0f34658f7.js" crossorigin="anonymous"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script type="text/javascript">
-        $(window).scroll(function() {
-			var scrollTop = $(this).scrollTop();
 
-			$('#musicSection').css({
-				opacity: function() {
-				var elementHeight = $(this).height(),
-					opacity = ((.64 - (elementHeight - scrollTop) / elementHeight) * 0.57) + 0.07;
-					
-				return $('#musicSection').css('background-color', 'rgba(255, 255, 255, ' + opacity + ')');
-				}
-			});
-		});
+    <head>
+        <title>Lydia Li</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+        <script src="https://kit.fontawesome.com/c0f34658f7.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/backgroundFade.js"></script>
+    </head>
 
-		$(window).scroll(function() {
-			var scrollTop = $(this).scrollTop();
+    <body>
 
-			$('#musicSectionExtension').css({
-				opacity: function() {
-				var elementHeight = $(this).height(),
-					opacity = ((.64 - (elementHeight - scrollTop) / elementHeight) * 0.3) + 0.07;
-									
-				return $('#musicSectionExtension').css('background-color', 'rgba(255, 255, 255, ' + opacity + ')');
-				}
-			});
-		});
+        <div class="parallax">
+            <div id="top"></div>
 
-		$(window).scroll(function() {
-			var scrollTop = $(this).scrollTop();
+            <ul class="nav">
+                <li><a href="index.html" class="navLink" id="active">Home</a></li>
+                <li><a href="#musicSection" class="navLink">Music</a></li>
+                <li><a href="#about" class="navLink">About</a></li>
+                <li><a href="#contactSection" class="navLink">Contact</a></li>
+            </ul>
 
-			$('#musicSectionEnd').css({
-				opacity: function() {
-				var elementHeight = $(this).height(),
-					opacity = ((.64 - (elementHeight - scrollTop) / elementHeight) * 0.029) + 0.07;
-									
-				return $('#musicSectionEnd').css('background-color', 'rgba(255, 255, 255, ' + opacity + ')');
-				}
-			});
-		});
+            <div id="heading">
+                <h1>
+                    <div id="firstHalf">李庭熙&nbsp</div>
+                    <div id="secondHalf">| Lydia Li</div>
+                </h1>
+                <div id="bottomPart"><h5>Composer | Musician</h5></div>
+            </div>
 
-		$(window).scroll(function() {
-			var scrollTop = $(this).scrollTop();
+            <div id="downArrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
 
-			$('#aboutMeStart').css({
-				opacity: function() {
-				var elementHeight = $(this).height(),
-					opacity = ((1 - (elementHeight - scrollTop) / elementHeight) * 0.047) + 0.07;
-									
-				return $('#aboutMeStart').css('background-color', 'rgba(255, 255, 255, ' + opacity + ')');
-				}
-			});
-		});
+            <div id="whiteBackground">
 
-		$(window).scroll(function() {
-			var scrollTop = $(this).scrollTop();
+                <div id="mainSections">
 
-			$('#aboutMeFiller').css({
-				opacity: function() {
-				var elementHeight = $(this).height(),
-					opacity = ((1 - (elementHeight - scrollTop) / elementHeight) * 0.18) + 0.07;
-									
-				return $('#aboutMeFiller').css('background-color', 'rgba(255, 255, 255, ' + opacity + ')');
-				}
-			});
-		});
+                    <h2 id="musicSection">Music</h2>
 
-		$(window).scroll(function() {
-			var scrollTop = $(this).scrollTop();
+                    <img class="dots" src="img/dots.png">
 
-			$('#aboutMeSection').css({
-				opacity: function() {
-				var elementHeight = $(this).height(),
-					opacity = ((1 - (elementHeight - scrollTop) / elementHeight) * .33) + 0.07;
-									
-				return $('#aboutMeSection').css('background-color', 'rgba(255, 255, 255, ' + opacity + ')');
-				}
-			});
-		});
+                    <div id="music">
+                        <iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1332007654&color=%23bfbdbd&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"></div>
+                    </div>
 
-		// $(window).scroll(function() {
-		// 	var scrollTop = $(this).scrollTop();
+                    <div id="about">
 
-		// 	$('#aboutMeEndFiller').css({
-		// 		opacity: function() {
-		// 		var elementHeight = $(this).height(),
-		// 			opacity = ((1 - (elementHeight - scrollTop) / elementHeight) * .031) + 0.07;
-									
-		// 		return $('#aboutMeEndFiller').css('background-color', 'rgba(255, 255, 255, ' + opacity + ')');
-		// 		}
-		// 	});
-		// });
-    </script>
-</head>
+                        <h3>About</h3>
+
+                        <img class="dots" src="img/dots.png">
+
+                        <div id="aboutSection">
+                            <img id="profile" src="img/yaya.jpg">
+
+                            <p>
+                                Lydia Li is a Chinese composer for film and other media. 
+                                She likes to create unique and emotionally-driven music that engages the listener. 
+                                <br><br>
+                                
+                                She began her musical journey as a classically trained pianist and discovered a 
+                                passion for writing songs and original melodies. 
+                                <br><br>
+                                
+                                While attending the Communication University of Zhejiang and studying communications,
+                                 she served as a host for the local radio station ‘Hangzhou MIX FM90.7’. In addition
+                                  to producing music for the station’s programs, she also worked as a composer’s 
+                                  assistant in Shanghai, scoring several films, advertisements, and documentaries, 
+                                  including Materia Medical China which was broadcasted on Jiangsu satellite 
+                                  television. 
+                                  <br><br>
+                                
+                                Lydia writes in a wide range of styles, blending acoustic, synthetic, and natural 
+                                sounds. She is currently pursuing a master’s degree in scoring at Columbia College 
+                                Chicago and hopes to continue writing music for film, television, and other media. 
+                                <br><br>
+
+                            </p>
+                        </div>
+                    </div>    
+
+                </div>
+
+            </div>
 
 
-<body>
+        </div>
 
-	<div class="sidenav">
-        <a href="#top"><div class="circle"></div></a>
-        <a href="#musicSection"><div class="circle"></div></a>
-        <a href="#aboutMeStart"><div class="circle"></div></a>
-        <a href="#contact"><div class="circle"></div></a>
-      </div>
+        <div id="contactPhoto">
 
-	<div class="parallax">
-		<div id="top"></div>
-		<ul class="nav">
-			<li><a href="index.html" class="navLink" id="active">Home</a></li>
-			<li><a href="#musicSection" class="navLink">Music</a></li>
-			<li><a href="#aboutMeStart" class="navLink">About</a></li>
-			<li><a href="#contact" class="navLink">Contact</a></li>
-		</ul>
+            <h4 id="contactSection">Contact</h4>
 
-		<div id="heading">
-			<h1>
-				<div id="firstHalf">李庭熙&nbsp</div>
-				<div id="secondHalf">| Lydia Li</div>
-			</h1>
-			<div id="bottomPart"><h5>Composer | Musician</h5></div>
-		</div>
-		<div id="downArrow">
-			<i class="fas fa-chevron-down"></i>
-		</div>
-	</div>
+            <img id="whiteDots" src="img/wdots.png">
 
-	<div class="parallax">
-		<div id="filler"></div>
-		<div id="musicSection">
-			<div id="musicHeading">
-				<h2>Music Demos</h2>
-			</div>
-			<div id="music">
-				<div id="genre1">
-					<h3 id="title1">Sample Works from Past Projects</h3>
-					<!-- <iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1332007654&color=%23bfbdbd&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"></div> -->
-					<iframe width="99.8%" height="88%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1332007654&color=%23bfbdbd&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/user-493201294" title="Lydia Li" target="_blank" style="color: #cccccc; text-decoration: none;">Lydia Li</a> · <a href="https://soundcloud.com/user-493201294/sets/some-music" title="Various Works" target="_blank" style="color: #cccccc; text-decoration: none;">Catalog</a></div>
-				</div>
-				<!-- <div id="genre2">
-					<h3 id="title2">title2</h3>
-					<iframe width="100%" height="410" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/241029662&color=%23f7e3db&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"></div>
-				</div>
-				<div id="genre3">
-					<h3 id="title3">title3</h3>
-					<iframe width="100%" height="410" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/241029662&color=%23f7e3db&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"></div>
-				</div>
-				<div id="genre4">
-					<h3 id="title4">title4</h3>
-					<iframe width="100%" height="410" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/241029662&color=%23f7e3db&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"></div>
-				</div> -->
-			</div>
-		</div>
-	</div>
+            <p id="contactInfo">
+				<mark>      Los Angeles      </mark>
+				<br>
+				<mark> LydiaLiMusic@gmail.com </mark>
+				<br>
+				<mark>     (626) 734-4961     </mark>
+				<br>
+			</p>
 
-	<div class="parallax">
-		<div id="musicSectionExtension"></div>
-		<div id="musicSectionEnd"></div>
-		<h4 id="aboutMeStart">About Me</h4>
-		<div id="aboutMeFiller"></div>
-	</div>
-
-	<div class="parallax">
-		<div id="aboutMeSection">
-			<div id="aboutPicture">
-			</div>
-			<div id="aboutDescription">
-				<p>
-Lydia Li is a Chinese composer for film and other media. 
-She likes to create unique and emotionally-driven music that engages the listener. 
-<br><br>
-
-She began her musical journey as a classically trained pianist and discovered a 
-passion for writing songs and original melodies. 
-<br><br>
-
-While attending the Communication University of Zhejiang and studying communications,
- she served as a host for the local radio station ‘Hangzhou MIX FM90.7’. In addition
-  to producing music for the station’s programs, she also worked as a composer’s 
-  assistant in Shanghai, scoring several films, advertisements, and documentaries, 
-  including Materia Medical China which was broadcasted on Jiangsu satellite 
-  television. 
-  <br><br>
-
-Lydia writes in a wide range of styles, blending acoustic, synthetic, and natural 
-sounds. She is currently pursuing a master’s degree in scoring at Columbia College 
-Chicago and hopes to continue writing music for film, television, and other media. 
-<br><br>
-				</p>
-			</div>
-			<div id="links">
+            <div id="links">
 				<ul>
 					<li><a href="https://www.youtube.com/channel/UC76rlTaI_T_bqhNaEft6BLw" target="_blank" rel="noopener noreferrer">
 						<i class="fab fa-youtube"></i></a></li>
@@ -212,27 +120,17 @@ Chicago and hopes to continue writing music for film, television, and other medi
 					<li><a href="https://www.instagram.com/sheep_lydia/" target="_blank" rel="noopener noreferrer">
 						<i class="fab fa-instagram-square"></i></i></a></li>
 					<li><a href="mailto:lydialimusic@gmail.com/"> 
-						<i class="fas fa-at"></i></a></li>
+						<i class="fas fa-paper-plane"></i></a></li>
 				</ul>
 			</div>
-		</div>
-		<!-- <div id="aboutMeEndFiller"></div> -->
-		<div id="contact">
-			<h5>Contact</h5>
-			<p>
-				<mark>Los Angeles</mark>
-				<br>
-				<mark>LydiaLiMusic@gmail.com</mark>
-				<br>
-				<mark>(626) 734-4961</mark>
-				<br>
-			</p>
-		</div>
-	</div>
 
-	<div id="parallax2"></div>
+            <div id="upArrow">
+                <a href="#top"><i class="fas fa-chevron-up"></i></a>
+            </div>
 
-	<a href="#top"><div id="backToTopBar"></div></a>
 
-</body>
+        </div>
+
+    </body>
+
 </html>
