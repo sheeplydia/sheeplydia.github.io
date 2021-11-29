@@ -7,7 +7,7 @@ body,html {
   /* ----------------------------------------- BACKGROUND IMAGE ----------------------------------------- */
   .parallax {
     background-image: url('../img/mainPhoto.jpg');
-    height: 440vh;
+    height: 420vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
