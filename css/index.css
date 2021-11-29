@@ -7,7 +7,7 @@ body,html {
   /* ----------------------------------------- BACKGROUND IMAGE ----------------------------------------- */
   .parallax {
     background-image: url('../img/mainPhoto.jpg');
-    height: 440vh;
+    height: 430vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
@@ -259,7 +259,7 @@ body,html {
 
   #contactPhoto {
     background-image: url('../img/studio.jpg');
-    height: 100vh;
+    height: 110vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
