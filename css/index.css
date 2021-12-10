@@ -1,7 +1,8 @@
 body,html {
-    height: 100%;
+    height: 100vh;
     margin: 0;
     scroll-behavior: smooth;
+    background-color: white;
   }
 
   /* ----------------------------------------- BACKGROUND IMAGE ----------------------------------------- */
@@ -214,7 +215,7 @@ body,html {
     width: 50%;
     height: 26%;
     padding-top: 3%;
-    padding-bottom: 18%;
+    padding-bottom: 10%;
   }
 
   /* ----------------------------------------- ABOUT ----------------------------------------- */
@@ -257,9 +258,11 @@ body,html {
     color: #c9a52e;
   }
 
+   /* ----------------------------------------- Contact ----------------------------------------- */
+
   #contactPhoto {
     background-image: url('../img/studio.jpg');
-    height: 110vh;
+    height: 100vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
@@ -365,6 +368,44 @@ body,html {
 
 
   /* ----------------------------------------- MEDIA QUERIES ----------------------------------------- */
+
+  @media (min-height: 900px) {
+    
+    .parallax {
+      height: 360vh;
+    }
+
+    #whiteBackground {
+      height: 235vh;
+    }
+    
+    #music {
+      height: 25.5%;
+      width: 43.5%
+    }
+  
+    #aboutSection {
+      height: 95vh;
+      width: 100%;
+    }
+  
+    #profile {
+      margin-left: 16vw;
+    }
+  
+    p {
+      margin-right: 16vw;
+    }
+
+    #contactPhoto {
+      background-size: 115%;
+    }
+
+    h4 {
+      padding-top: 9%;
+  }
+
+  }
 
   @media (max-width: 600px) {
     /* PARALLAX IMAGE */
