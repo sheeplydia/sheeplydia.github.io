@@ -85,6 +85,9 @@ body,html {
     -ms-animation: fadein 4s;
     -o-animation: fadein 4s;
   }
+  #homeLink {
+    text-decoration: none;
+  }
   
   @keyframes fadein {
     from {
@@ -405,6 +408,16 @@ body,html {
 
     h4 {
       padding-top: 9%;
+  }
+
+  @media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
+
+  @media (max-width: 850px) {
+
   }
 
   }
