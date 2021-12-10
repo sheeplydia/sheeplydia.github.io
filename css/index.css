@@ -390,11 +390,13 @@ body,html {
     }
   
     #profile {
-      margin-left: 16vw;
+      margin-left: 18.4vw;
     }
   
     p {
-      margin-right: 16vw;
+      margin-right: 18.4vw;
+      width: 35%;
+      line-height: 137%;
     }
 
     #contactPhoto {
