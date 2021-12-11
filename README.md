@@ -1,4 +1,4 @@
 ### personal website
 
 #### issues:
-- fix sizing
+- fix mobile layout/images
