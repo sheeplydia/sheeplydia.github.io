@@ -418,6 +418,9 @@ body,html {
   }
 
   @media (max-height: 850px) {
+    body {
+      background-color: black;
+    }
     /* CENTER TEXT */
     #heading {
       margin-top: 50vh;
