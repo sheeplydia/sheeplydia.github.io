@@ -409,6 +409,7 @@ body,html {
     h4 {
       padding-top: 9%;
   }
+}
 
   @media only screen and (max-device-width: 1366px) {
     .parallax {
@@ -416,10 +417,26 @@ body,html {
     }
   }
 
-  @media (max-width: 850px) {
+  @media (max-height: 850px) {
+    /* CENTER TEXT */
+    #heading {
+      margin-top: 50vh;
+    }
 
-  }
-
+    h5 {
+      font-size: 80%;
+      white-space: nowrap;
+    }
+    
+    #firstHalf {
+      font-size: 130%;
+      white-space: nowrap;
+    }
+    
+    #secondHalf {
+      font-size: 170%;
+      white-space: nowrap;
+    }
   }
 
   @media (max-width: 600px) {
