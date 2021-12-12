@@ -496,6 +496,7 @@ body,html {
 
     .fas {
       font-size: 3vh;
+      padding-bottom: 20%;
     }
 
     /* WHITE BACKGROUND */
@@ -529,7 +530,7 @@ body,html {
     }
 
     #profile {
-      width: 99%;
+      width: 90%;
       height: 42%;
       border-radius: 50%;
       float: none;
@@ -551,12 +552,34 @@ body,html {
 
     /* CONTACT */
 
+    #whiteDots {
+      width: 8.3%;
+      padding-top: 3%;
+    }
+
     #contactPhoto {
       background-size: cover;
     }
 
     #links {
       padding-top: 6%;
+    }
+  
+    #links li a {
+      display: block;
+      padding: 10px;
+    }
+  
+    #links .fab {
+      padding: 17.5px;
+      font-size: 225%;
+      width: 50px;
+    }
+  
+    #links .fas {
+      padding: 17.5px;
+      font-size: 190%;
+      width: 50px;
     }
 
     #upArrow {
