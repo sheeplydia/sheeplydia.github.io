@@ -424,7 +424,9 @@ body,html {
 
     .parallax {
       height: 520vh;
-      background-attachment: initial;
+      
+      background-size: auto 100%;
+      background-attachment: fixed;
     }
     /* CENTER TEXT */
     #heading {
