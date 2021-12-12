@@ -464,6 +464,7 @@ body,html {
     }
 
     /* CENTER TEXT */
+    
     #heading {
       margin-top: 90%;
     }
@@ -488,6 +489,7 @@ body,html {
     }
 
     /* DOWN ARROW */
+
     #downArrow {
       padding-top: 5vh;
     }
@@ -497,11 +499,13 @@ body,html {
     }
 
     /* WHITE BACKGROUND */
+
     #whiteBackground {
       height: 405vh;
     }
 
     /* MUSIC */
+
     h2 {
       font-size: 350%;
     }
@@ -520,10 +524,6 @@ body,html {
 
     /* ABOUT */
 
-    #contactPhoto {
-      background-size: cover;
-    }
-
     h3 {
       font-size: 350%;
     }
@@ -532,6 +532,12 @@ body,html {
       width: 99%;
       height: 42%;
       border-radius: 50%;
+      float: none;
+      margin-left: .5%;
+      margin-right: .5%;
+      margin-top: 1.5%;
+      object-fit: cover;
+      object-position: 100% 31%;
     }
 
     p {
@@ -541,6 +547,12 @@ body,html {
       margin-left: 5%;
       font-size: 132.5%;
       text-align: center;
+    }
+
+    /* CONTACT */
+
+    #contactPhoto {
+      background-size: cover;
     }
 
     #links {
