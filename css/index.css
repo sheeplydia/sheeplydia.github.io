@@ -439,11 +439,44 @@ body,html {
       padding-left: 0vw;
       white-space: nowrap;
       text-align: center;
-      display: block;
     }
 
     .nav li {
       padding: 0 1.1em 0 1.1em;
+    }
+
+    #active {
+      /* color: #71b6bd; */
+      color: white;
+    }
+    
+    .nav li a:hover {
+      /* color: #71b6bd; */
+      color: white;
+    }
+    
+    .navLink::after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 2px;
+      /* background: #71b6bd; */
+      background: white;
+      transition: width .3s;
+    }
+    
+    .navLink:hover::after {
+      width: 100%;
+      transition: width .3s;
+    }
+    
+    #active::after {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 2px;
+      /* background: #71b6bd; */
+      background: white;
     }
 
     /* CENTER TEXT */
