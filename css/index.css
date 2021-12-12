@@ -419,7 +419,7 @@ body,html {
 
   @media (max-height: 850px) {
     body {
-      background-color: black;
+      background-color: blue;
     }
 
     .parallax {
