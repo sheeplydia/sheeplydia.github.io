@@ -411,11 +411,15 @@ body,html {
   }
 }
 
-  @media only screen and (max-device-width: 1366px) {
+/* /////////////////////////////////////////////////// */
+
+  /* @media only screen and (max-device-width: 1366px) {
     .parallax {
       background-attachment: scroll;
     }
-  }
+  } */
+
+  /* ////////////////////////////////////////////////// */
 
   @media (max-height: 850px) {
     body {
@@ -424,10 +428,18 @@ body,html {
 
     .parallax {
       height: 520vh;
-      
       background-size: auto 100%;
       background-attachment: fixed;
     }
+
+    .nav {
+      font-size: .92em;
+      padding-top: 8vh;
+      margin-left: 40vw;
+      white-space: nowrap;
+      text-align: center;
+    }
+
     /* CENTER TEXT */
     #heading {
       margin-top: 50vh;
@@ -452,7 +464,7 @@ body,html {
     .nav {
       white-space: nowrap;
       text-align: center;
-      margin: 0;
+      margin-left: 0;
     }
 
     .nav li {
