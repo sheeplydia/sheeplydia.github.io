@@ -436,8 +436,10 @@ body,html {
       font-size: .90em;
       padding-top: 8vh;
       margin-left: 0vw;
+      padding-left: 0vw;
       white-space: nowrap;
       text-align: center;
+      display: block;
     }
 
     .nav li {
