@@ -481,6 +481,10 @@ body,html {
       white-space: nowrap;
     }
 
+    #bottomPart {
+      margin-top: -6vh;
+    }
+
     /* DOWN ARROW */
     #downArrow {
       padding-top: 5vh;
