@@ -458,7 +458,7 @@ body,html {
     }
     
     #active::after {
-      background: white;
+      background: rgb(242,153,90);
     }
 
     /* CENTER TEXT */
