@@ -421,7 +421,7 @@ body,html {
 
   /* ////////////////////////////////////////////////// */
 
-  @media (max-height: 850px) {
+  @media (max-height: 899px) {
     body {
       background-color: blue;
     }
@@ -433,11 +433,15 @@ body,html {
     }
 
     .nav {
-      font-size: .92em;
+      font-size: .90em;
       padding-top: 8vh;
-      margin-left: 40vw;
+      margin-left: 0vw;
       white-space: nowrap;
       text-align: center;
+    }
+
+    .nav li {
+      padding: 0 1.1em 0 1.1em;
     }
 
     /* CENTER TEXT */
@@ -458,17 +462,6 @@ body,html {
     #secondHalf {
       font-size: 170%;
       white-space: nowrap;
-    }
-
-    /* TOP NAV */
-    .nav {
-      white-space: nowrap;
-      text-align: center;
-      margin-left: 0;
-    }
-
-    .nav li {
-      padding: 0 1.3em 0 1.3em;
     }
 
     /* DOWN ARROW */
