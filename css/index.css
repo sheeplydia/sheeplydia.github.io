@@ -447,43 +447,16 @@ body,html {
       font-size: 170%;
       white-space: nowrap;
     }
-  }
-
-  @media (max-width: 600px) {
-    /* PARALLAX IMAGE */
-    .parallax {
-      height: 520vh;
-    }
 
     /* TOP NAV */
     .nav {
       white-space: nowrap;
       text-align: center;
-      margin-left: 0;
+      margin: 0;
     }
 
     .nav li {
       padding: 0 1.3em 0 1.3em;
-    }
-    
-    /* CENTER TEXT */
-    #heading {
-      margin-top: 50vh;
-    }
-
-    h5 {
-      font-size: 110%;
-      white-space: nowrap;
-    }
-    
-    #firstHalf {
-      font-size: 160%;
-      white-space: nowrap;
-    }
-    
-    #secondHalf {
-      font-size: 200%;
-      white-space: nowrap;
     }
 
     /* DOWN ARROW */
@@ -555,6 +528,7 @@ body,html {
       margin-top: 20%;
     }
   }
+
 
   /* ----------------------------------------- FONTS ----------------------------------------- */
   @font-face {
