@@ -421,6 +421,12 @@ body,html {
     body {
       background-color: black;
     }
+
+    .parallax {
+      height: 520vh;
+      background-attachment: initial;
+      background-size: 100%;
+    }
     /* CENTER TEXT */
     #heading {
       margin-top: 50vh;
