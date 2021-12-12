@@ -433,7 +433,7 @@ body,html {
     }
 
     .nav {
-      font-size: .90em;
+      font-size: .91em;
       padding-top: 8vh;
       margin-left: 0vw;
       padding-left: 0vw;
@@ -454,7 +454,7 @@ body,html {
     }
     
     .navLink::after {
-      background: white;
+      display: none;
     }
     
     #active::after {
