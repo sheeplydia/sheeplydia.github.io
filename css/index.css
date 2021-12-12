@@ -539,10 +539,7 @@ body,html {
       float: none;
       margin-right: 5%;
       margin-left: 5%;
-      font-family: 'Poppins', 'sans-serif';
       font-size: 132.5%;
-      text-shadow: .03em .03em rgba(46,43,50,.1);
-      color: #c9a52e;
       text-align: center;
     }
 
