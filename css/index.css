@@ -446,36 +446,18 @@ body,html {
     }
 
     #active {
-      /* color: #71b6bd; */
       color: white;
     }
     
     .nav li a:hover {
-      /* color: #71b6bd; */
       color: white;
     }
     
     .navLink::after {
-      content: '';
-      display: block;
-      width: 0;
-      height: 2px;
-      /* background: #71b6bd; */
       background: white;
-      transition: width .3s;
-    }
-    
-    .navLink:hover::after {
-      width: 100%;
-      transition: width .3s;
     }
     
     #active::after {
-      content: '';
-      display: block;
-      width: 100%;
-      height: 2px;
-      /* background: #71b6bd; */
       background: white;
     }
 
@@ -485,17 +467,17 @@ body,html {
     }
 
     h5 {
-      font-size: 80%;
+      font-size: 65%;
       white-space: nowrap;
     }
     
     #firstHalf {
-      font-size: 130%;
+      font-size: 115%;
       white-space: nowrap;
     }
     
     #secondHalf {
-      font-size: 170%;
+      font-size: 155%;
       white-space: nowrap;
     }
 
