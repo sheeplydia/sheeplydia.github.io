@@ -191,7 +191,7 @@ body,html {
   }
 
   #mobileWhiteBackground {
-    height: 300vh;
+    height: 0;
     display: none;
   }
   
