@@ -423,11 +423,11 @@ body,html {
 
   @media (max-height: 899px) {
     body {
-      background-color: pink;
+      background-color: blue;
     }
 
     .parallax {
-      height: 5200px;
+      height: 4300px;
       background-size: auto 100%;
       background-attachment: fixed;
     }
@@ -506,7 +506,7 @@ body,html {
 
     #whiteBackground {
       /* height: 450vh; */
-      height: 2800px;
+      height: 2600px;
     }
 
     /* MUSIC */
@@ -567,7 +567,7 @@ body,html {
     }
 
     h4 {
-      padding-top: 17%;
+      padding-top: 24%;
       font-size: 15vw;
   }
 
