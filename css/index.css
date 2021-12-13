@@ -493,6 +493,7 @@ body,html {
 
     #downArrow {
       padding-top: 5vh;
+      opacity: 0.5;
     }
 
     .fas {
@@ -505,7 +506,7 @@ body,html {
 
     #whiteBackground {
       /* height: 450vh; */
-      height: 3000px;
+      height: 2800px;
     }
 
     /* MUSIC */
@@ -566,7 +567,7 @@ body,html {
     }
 
     h4 {
-      padding-top: 15%;
+      padding-top: 17%;
       font-size: 15vw;
   }
 
@@ -582,6 +583,7 @@ body,html {
       float: none;
       margin-right: auto;
       margin-left: auto;
+      text-decoration: none;
     }
 
     #links {
