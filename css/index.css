@@ -504,7 +504,8 @@ body,html {
     /* WHITE BACKGROUND */
 
     #whiteBackground {
-      height: 450%;
+      /* height: 450vh; */
+      height: 3000px;
     }
 
     /* MUSIC */
