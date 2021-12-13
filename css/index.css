@@ -428,7 +428,7 @@ body,html {
     }
 
     .parallax {
-      height: 3370px;
+      height: 3400px;
       background-size: auto 100%;
       background-attachment: fixed;
     }
@@ -507,7 +507,7 @@ body,html {
 
     #whiteBackground {
       /* height: 450vh; */
-      height: 2600px;
+      height: 2800px;
     }
 
     /* MUSIC */
