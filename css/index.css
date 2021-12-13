@@ -533,12 +533,13 @@ body,html {
 
     #profile {
       /* width: 99%; */
-      width: 60%;
-      height: 60%;
+      width: 90x;
+      height: 90px;
       border-radius: 50%;
       float: none;
       margin-left: auto;
       margin-right: auto;
+      padding:0;
       margin-top: 1.5%;
       object-fit: cover;
       object-position: 100% 31%;
@@ -554,14 +555,21 @@ body,html {
     }
 
     /* CONTACT */
+    #contactPhoto {
+      background-size: cover;
+    }
+
+    h4 {
+      padding-top: 15%;
+  }
 
     #whiteDots {
       width: 10%;
       padding-top: 3%;
     }
 
-    #contactPhoto {
-      background-size: cover;
+    #contactInfo {
+      padding-top: 15%;
     }
 
     #links {
