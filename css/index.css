@@ -416,7 +416,7 @@ body,html {
 
   @media (max-height: 899px) {
     body {
-      background-color: cyan;
+      background-color: pink;
     }
 
     .parallax {
@@ -538,6 +538,7 @@ body,html {
       display: block;
       margin: 0 auto;
       margin-top: 1.5%;
+      margin-bottom: 1.5%;
       object-fit: cover;
       object-position: 100% 31%;
       width: 300px;
@@ -548,7 +549,6 @@ body,html {
     p {
       width: 90%;
       float: none;
-      margin-top: 1.5%;
       margin-right: 5%;
       margin-left: 5%;
       /* font-size: 132.5%; */
