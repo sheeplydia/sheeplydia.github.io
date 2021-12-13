@@ -537,16 +537,16 @@ body,html {
       /* width: 100vw;
       height: 70vw; */
       float: none;
-      margin-left: 5%;
-      margin-right: 5%;
+      margin-left: 50%;
+      margin-right: 50%;
       margin-top: 1.5%;
       object-fit: cover;
       object-position: 100% 31%;
 
       /* width: 85%;
       height: 35%; */
-      width: 100px;
-      height: 100px;
+      width: 220px;
+      height: 220px;
       border-radius: 50%;
     }
 
