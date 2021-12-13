@@ -485,7 +485,8 @@ body,html {
     }
 
     #bottomPart {
-      margin-top: -4.5vh;
+      /* margin-top: -4.5vh; */
+      margin-top: -4.5%;
     }
 
     /* DOWN ARROW */
@@ -497,7 +498,7 @@ body,html {
     .fas {
       font-size: 3vh;
       /* padding-bottom: 20%; */
-      padding-bottom: 170px;
+      padding-bottom: 155px;
     }
 
     /* WHITE BACKGROUND */
@@ -509,7 +510,7 @@ body,html {
     /* MUSIC */
 
     h2 {
-      font-size: 350%;
+      font-size: 350vw;
     }
 
     .dots {
@@ -522,7 +523,7 @@ body,html {
       /* height: 20%; */
       height:600px;
       padding-top: 6%;
-      padding-bottom: 30%;
+      padding-bottom: 75px;
     }
 
     /* ABOUT */
@@ -532,14 +533,12 @@ body,html {
     }
 
     #profile {
-      /* width: 99%; */
-      width: 90x;
-      height: 90px;
+      width: 99%;
+      height: auto;
       border-radius: 50%;
       float: none;
       margin-left: auto;
       margin-right: auto;
-      padding:0;
       margin-top: 1.5%;
       object-fit: cover;
       object-position: 100% 31%;
