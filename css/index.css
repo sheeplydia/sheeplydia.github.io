@@ -504,7 +504,7 @@ body,html {
     /* WHITE BACKGROUND */
 
     #whiteBackground {
-      height: 405vh;
+      height: 450%;
     }
 
     /* MUSIC */
@@ -539,8 +539,8 @@ body,html {
     }
 
     #profile {
-      width: 99vw;
-      height: 49vw;
+      width: 100vw;
+      height: 50vw;
       border-radius: 50%;
       float: none;
       margin-left: auto;
