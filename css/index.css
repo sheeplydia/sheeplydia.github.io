@@ -510,7 +510,7 @@ body,html {
     /* MUSIC */
 
     h2 {
-      font-size: 360vw;
+      font-size: 30vw;
     }
 
     .dots {
@@ -529,7 +529,7 @@ body,html {
     /* ABOUT */
 
     h3 {
-      font-size: 360vw;
+      font-size: 30vw;
     }
 
     #profile {
@@ -560,7 +560,7 @@ body,html {
 
     h4 {
       padding-top: 15%;
-      font-size: 360vw;
+      font-size: 30vw;
   }
 
     #whiteDots {
@@ -573,7 +573,7 @@ body,html {
     }
 
     #links {
-      padding-top: 6%;
+      padding-top: 15%;
     }
   
     #links li a {
@@ -583,13 +583,13 @@ body,html {
   
     #links .fab {
       padding: 10px;
-      font-size: 250%;
+      font-size: 252%;
       width: 50px;
     }
   
     #links .fas {
       padding: 10px;
-      font-size: 207%;
+      font-size: 205%;
       width: 50px;
     }
 
