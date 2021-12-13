@@ -490,7 +490,7 @@ body,html {
     }
 
     .fas {
-      font-size: 9vw;
+      font-size: 6vw;
       /* padding-bottom: 20%; */
       padding-bottom: 155px;
     }
@@ -534,19 +534,12 @@ body,html {
     }
 
     #profile {
-      /* width: 100vw;
-      height: 70vw; */
       float: none;
       display: block;
       margin: 0 auto;
-      /* margin-left: 50vw;
-      margin-right: 50vw; */
       margin-top: 1.5%;
       object-fit: cover;
       object-position: 100% 31%;
-
-      /* width: 85%;
-      height: 35%; */
       width: 300px;
       height: 300px;
       border-radius: 50%;
@@ -555,6 +548,7 @@ body,html {
     p {
       width: 90%;
       float: none;
+      margin-top: 1.5%;
       margin-right: 5%;
       margin-left: 5%;
       /* font-size: 132.5%; */
