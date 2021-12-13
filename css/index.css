@@ -416,7 +416,7 @@ body,html {
 
   @media (max-height: 899px) {
     body {
-      background-color: red;
+      background-color: purple;
     }
 
     .parallax {
@@ -490,7 +490,7 @@ body,html {
     }
 
     .fas {
-      font-size: 2.5vw;
+      font-size: 9vw;
       /* padding-bottom: 20%; */
       padding-bottom: 155px;
     }
@@ -547,8 +547,8 @@ body,html {
 
       /* width: 85%;
       height: 35%; */
-      width: 270px;
-      height: 270px;
+      width: 300px;
+      height: 300px;
       border-radius: 50%;
     }
 
